@@ -22,7 +22,7 @@ default_args = {
 dag = DAG(
     'dag_de_prueba',
     default_args=default_args,
-    description='Mi primer DAG para Cloud Composer',
+    description='aguante la birra',
     schedule_interval=timedelta(days=1),
     catchup=False,
     tags=['ejemplo', 'local', 'corebi'],
